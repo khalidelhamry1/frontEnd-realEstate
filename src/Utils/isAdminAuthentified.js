@@ -20,6 +20,7 @@ const isAdminAuthentified = () => {
         window.localStorage.removeItem("ESTATE_HUB_JWT");
         return false;
       });
+
   }
 };
 
